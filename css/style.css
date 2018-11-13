@@ -12,7 +12,7 @@ body {
     line-height: 26px;
     color: #7b7b7b;
     font-weight: 300;
-    letter-spacing: .07em;
+    letter-spacing: 0.1em;
     margin: 30px;
     border: 0;
 }
@@ -236,6 +236,10 @@ pre {
     background-size: 1px 4rem;
 }
 
+.img-responsive {
+    margin: 0 auto;
+}
+
 #fh5co-header {
     margin-top: 5em;
     margin-bottom: 5em;
@@ -254,7 +258,9 @@ pre {
     display: block;
 }
 
-#fh5co-logo a:hover {
+#fh5co-logo>a:hover,
+a:active,
+a:focus {
     border: 0;
 }
 
@@ -929,9 +935,8 @@ pre {
 }
 
 .btn-outline {
-    border: 2px solid #ccc !important;
+    border: 2px solid #ff00ff !important;
     background: transparent;
-    color: #333;
 }
 
 .btn-outline:hover,
@@ -1004,6 +1009,13 @@ pre {
 .btn-danger {
     border-color: transparent;
 }
+
+@media screen and (max-width: 768px) {
+    .btn-bottom {
+        margin-bottom: 30px;
+    }
+}
+
 
 .form-control {
     box-shadow: none !important;
@@ -1141,6 +1153,7 @@ pre {
     padding-left: 50px;
     padding-right: 50px;
     color: #ffffff !important;
+    background-color: #ff00ff;
 }
 
 .fh5co-call-to-action>.fh5co-overlay {
