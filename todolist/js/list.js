@@ -6,9 +6,11 @@ function addFunction() {
     //ToDo checkbox
     let todoIconCircle = document.createElement("i");
     todoIconCircle.classList.add("far","fa-circle");
+    let btnConfirm = document.createElement("a");
+    btnConfirm.appendChild(todoIconCircle);
     let todoIconDiv1 = document.createElement("div");
     todoIconDiv1.classList.add("check-circle");
-    todoIconDiv1.appendChild(todoIconCircle);
+    todoIconDiv1.appendChild(btnConfirm);
     let todoLi = document.createElement("li");
     todoLi.appendChild(todoIconDiv1);
     todoUl.appendChild(todoLi);
@@ -56,7 +58,7 @@ function addFunction() {
     btnConfirm.addEventListener("click", function() {
         confirmFunction(todoLi);
     });
-    
+
 }
 
 
@@ -81,20 +83,25 @@ function editFunction(todoLi){
 }
 
 //編輯時 刪除另外兩個icon
-function deleteFunction(todoLi){
-    let todoUl = document.querySelector("")
-}
+
 //按前面的勾勾就跑到完成（第三格）
 
 
 // 3. ToDo to Completed 按前面的勾勾就跑到完成（第三格）
+function confirmFunction(todoLi) {
+    let todoUl = document.querySelector("#completed-tasks");
+    let todoLi2 = document.createElement("li");
+    let todoIconCircle = document.createElement("i");
+    todoIconCircle.classList.add("fas","fa-check-circle", "checkbox");
+    let todoLabel = document.createElement("label");
+    todoLabel.textContent = todoLi.querySelector(".unfinished-task").textContent;
+    todoLi2.appendChild(todoIconCircle);
+    todoLi2.appendChild(todoLabel);
+    todoUl.appendChild(todoLi2);
+    let todoUl2 = document.querySelector("#incomplete-tasks");
+    todoUl2.removeChild(todoLi);
 
-
-// function createTodoItem() {
-//     let todoUl = document.querySelector("#incomplete-tasks");
-//     let todoLi = document.createElement("li");
-//     todoUl.appendChild();
-// }
+}
 
 
 
