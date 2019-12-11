@@ -1614,6 +1614,10 @@ a>img.fh5co-align-center {
     text-align: center;
 }
 
+.pic-shadow {
+    box-shadow: 2px 2px 20px rgba(0, 0, 0, 0.3);
+}
+
 .btn-icon-size {
     font-size: 18px;
     margin-right: 5px;
