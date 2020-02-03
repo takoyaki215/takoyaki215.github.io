@@ -13,10 +13,10 @@
 
 body {
     font-family: 'Open Sans', sans-serif, sans-serif;
-    font-size: 16px;
-    line-height: 26px;
+    font-size: 1.75rem;
+    line-height: 3.5rem;
     color: #7b7b7b;
-    font-weight: 300;
+    font-weight: 400;
     letter-spacing: 0.1em;
     margin: 30px;
     border: 0;
@@ -166,6 +166,8 @@ h4,
 .h4 {
     font-size: 28px;
     line-height: 42px;
+    text-decoration: underline;
+    margin: 50px 0 0 0;
 }
 
 @media screen and (max-width: 768px) {
@@ -220,6 +222,9 @@ ul ol,
 ol ul,
 ol ol {
     padding-left: 25px;
+}
+li {
+    line-height: 3rem;
 }
 
 pre {
@@ -1673,22 +1678,26 @@ a>img.fh5co-align-center {
     font-family: "PT Mono";
 }
 
-.thumbnail {
-    border: 0;
-    display: flex;
-    align-items: center;
-    padding: 30px;
-    margin: 0;
-}
-.thumbnail > img {
+.customer-insight img {
     clip-path: circle(50% at 50% 50%);
     width: 150px;
-    height: 150px;
-    margin: 20px;
+    display: flex;
+    align-items: center;
 }
-.thumbnail .caption {
+.customer-insight  .caption {
     margin-left: 30px;
+}
+.customer-insight  {
+    background-color: #fff;
+    border: 0;
+    padding: 30px;
+    margin-bottom: 10px;
+    border-radius: 5px;
 }
 .question-text {
     font-style: italic;
+}
+.des-btn-style {
+    font-family: "PT Mono", sans-serif;
+    font-weight: 600;
 }
