@@ -1684,7 +1684,7 @@ a>img.fh5co-align-center {
     display: flex;
     align-items: center;
 }
-.customer-insight  .caption {
+.customer-insight .caption {
     margin-left: 30px;
 }
 .customer-insight  {
@@ -1693,9 +1693,6 @@ a>img.fh5co-align-center {
     padding: 30px;
     margin-bottom: 10px;
     border-radius: 5px;
-}
-.question-text {
-    font-style: italic;
 }
 .des-btn-style {
     font-family: "PT Mono", sans-serif;
