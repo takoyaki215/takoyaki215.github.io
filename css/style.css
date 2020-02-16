@@ -134,9 +134,9 @@ h5,
 
 h2,
 .h2 {
-    font-size: 42px;
+    font-size: 40px;
     line-height: 68px;
-    color: #ff00ff;
+    color: #666;
 }
 
 @media screen and (max-width: 768px) {
@@ -404,10 +404,10 @@ a:focus {
 }
 
 #fh5co-intro h1 {
-    font-size: 60px;
+    font-size: 48px;
     color: #333;
     line-height: 1;
-    letter-spacing: 0.2em;
+    /* letter-spacing: 0.2em; */
     text-transform: capitalize;
     font-family: sans-serif;
 }
@@ -1702,4 +1702,8 @@ a>img.fh5co-align-center {
 .my-duty {
     color: #333;
     font-weight: 600;
+}
+hr {
+    border: 1px solid #ddd;
+    margin-bottom: 30px;
 }
