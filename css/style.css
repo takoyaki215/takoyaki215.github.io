@@ -1159,7 +1159,7 @@ a:focus {
 }
 
 .fh5co-call-to-action {
-    background-color: #333;
+    background-color: #999;
     background-size: cover;
     background-attachment: fixed;
     position: relative;
@@ -1177,11 +1177,8 @@ a:focus {
 }
 
 .fh5co-call-to-action .btn {
-    margin-bottom: 0 !important;
-    padding-left: 50px;
-    padding-right: 50px;
-    color: #ffffff !important;
-    background-color: #ff00ff;
+    width: 40%;
+    margin: 10px auto;
 }
 
 .fh5co-call-to-action>.fh5co-overlay {
