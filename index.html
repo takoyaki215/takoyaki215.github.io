@@ -1,530 +1,559 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-
-<head>
+  <head>
+    <title>I Pin Chen - portfolio</title>
     <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>I Pin Chen - Work</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="ui designer">
+    <meta name="keywords" content="ui/ux design development">
+    <meta name="author" content="i pin chen">
+  
     <link rel="shortcut icon" href="favicon.ico">
-    <!-- Themify Icons -->
-    <link rel="stylesheet" href="css/themify-icons.css">
-    <!-- Icomoon Icons -->
-    <link rel="stylesheet" href="css/icomoon-icons.css">
-    <!-- Bootstrap -->
-    <link rel="stylesheet" href="css/bootstrap.css">
-    <!-- Owl Carousel -->
-    <link rel="stylesheet" href="css/owl.carousel.min.css">
-    <link rel="stylesheet" href="css/owl.theme.default.min.css">
-    <!-- Magnific Popup -->
-    <link rel="stylesheet" href="css/magnific-popup.css">
-    <!-- Easy Responsive Tabs -->
-    <link rel="stylesheet" href="css/easy-responsive-tabs.css">
+    <link rel="stylesheet" href="css/vendor/icomoon/style.css">
+    <link rel="stylesheet" href="css/vendor/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/vendor/animate.min.css">
+    <link rel="stylesheet" href="css/vendor/aos.css">
+    <link rel="stylesheet" href="css/vendor/bootstrap.min.css">
+    <link rel="stylesheet" href="css/vendor/jquery.fancybox.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css" integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp" crossorigin="anonymous">
     <!-- Theme Style -->
     <link rel="stylesheet" href="css/style.css">
-    <!-- FOR IE9 below -->
-    <!--[if lte IE 9]>
-    <script src="js/modernizr-2.6.2.min.js"></script>
-    <script src="js/respond.min.js"></script>
-    <![endif]-->
-    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css" />
-</head>
+  </head>
+  
+  <body data-spy="scroll" data-target=".site-nav-target" data-offset="200">
+    <nav class="unslate_co--site-mobile-menu">
+      <div class="close-wrap d-flex">
+        <a href="#" class="d-flex ml-auto js-menu-toggle">
+          <span class="close-label">Close</span>
+          <div class="close-times">
+            <span class="bar1"></span>
+            <span class="bar2"></span>
+          </div>
+        </a>
+      </div>
+      <div class="site-mobile-inner"></div>
+    </nav>
+    <div class="unslate_co--site-wrap">
+      <div class="unslate_co--site-inner">
+        <div class="lines-wrap">
+          <div class="lines-inner">
+            <div class="lines"></div>
+          </div>
+        </div>
+        <!-- END lines -->
 
-<body>
-    <!-- Header -->
-    <header id="fh5co-header">
+      <nav class="unslate_co--site-nav site-nav-target">
         <div class="container">
-            <!-- Logo -->
-            <div id="fh5co-logo">
-                <a href="index.html">
-                    <img class="animated bounce" src="ip-logo.svg" alt="I Pin Chen Logo">
-                    <p class="name-logo">I Pin Chen</p>
+          <div class="row align-items-center justify-content-between text-left">
+            <div class="col-md-5 text-right">
+              <ul class="site-nav-ul js-clone-nav text-left d-none d-lg-inline-block">
+                <li><a href="#portfolio-section" class="nav-link">Project</a></li>
+                <li><a href="#about-section" class="nav-link">About</a></li>
+              </ul>
+            </div>
+            <div class="site-logo pos-absolute">
+              <a href="index.html" class="unslate_co--site-logo"><span>i</span>PC</a>
+            </div>
+            <div class="col-md-5 text-right text-lg-left">
+              <ul class="site-nav-ul js-clone-nav text-left d-none d-lg-inline-block">
+                <li><a href="#practice-section" class="nav-link">Practice</a></li>
+                <li><a href="#contact-section" class="nav-link">Contact</a></li>
+              </ul>
+              <ul class="site-nav-ul-none-onepage text-right d-inline-block d-lg-none">
+                <li><a href="#" class="js-menu-toggle">Menu</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </nav>
+      <!-- END nav -->
+
+      <div class="cover-v1 jarallax" style="background-image: url('images/cover_bg_2.jpg');" id="home-section">
+        <div class="container">
+          <div class="row align-items-center">
+            <div class="col-md-7 mx-auto text-center">
+              <h1 class="heading gsap-reveal-hero">Beautifier</h1>
+              <h2 class="subheading gsap-reveal-hero">UI/ UX/ Web programming/ Design</h2>
+            </div>
+          </div>
+        </div>
+        <a href="#portfolio-section" class="mouse-wrap smoothscroll">
+          <span class="mouse">
+            <span class="scroll"></span>
+          </span>
+          <span class="mouse-label">Scroll</span>
+        </a>
+      </div>
+      <!-- END .cover-v1 -->
+
+      <div class="unslate_co--section" id="portfolio-section">
+        <div class="container">
+          <div class="relative"><div class="loader-portfolio-wrap"><div class="loader-portfolio"></div></div> </div>
+          <div id="portfolio-single-holder"></div>
+          <div class="portfolio-wrapper">
+            <div class="d-flex align-items-center mb-4 gsap-reveal gsap-reveal-filter">
+              <h2 class="mr-auto heading-h2"><span class="gsap-reveal">Portfolio</span></h2>
+              <a href="#" class="text-white js-filter d-inline-block d-lg-none">Filter</a>
+              <div class="filter-wrap">
+                <div class="filter ml-auto" id="filters">
+                  <a href="#" class="active" data-filter="*">All</a>
+                  <a href="#" data-filter=".web">UI/Web</a>
+                  <a href="#" data-filter=".graphic">Graphic</a>
+                  <a href="#" data-filter=".illustration">Illustration</a>
+                </div>
+              </div>
+            </div>
+
+            <div id="posts" class="row gutter-isotope-item">
+              <div class="item web col-sm-6 col-md-6 col-lg-4 isotope-mb-2">
+                <a href="eid.html" class="portfolio-item ajax-load-page isotope-item gsap-reveal-img" data-id="1">
+                    <div class="overlay">
+                      <span class="wrap-icon icon-link2"></span>
+                      <div class="portfolio-item-content">
+                        <h6>eID APP</h6>
+                        <p>UI</p>
+                      </div>
+                    </div>
+                    <img src="images/eid.png" class="lazyload img-fluid" alt="Images" />
+                  </a>
+              </div>
+              <div class="item web col-sm-6 col-md-6 col-lg-4 isotope-mb-2">
+                <a href="special_education.html" class="portfolio-item ajax-load-page isotope-item gsap-reveal-img" data-id="1">
+                    <div class="overlay">
+                      <span class="wrap-icon icon-link2"></span>
+                      <div class="portfolio-item-content">
+                        <h6>Special Education APP</h6>
+                        <p>UI/UX</p>
+                      </div>
+                    </div>
+                    <img src="images/special_education_1.png" class="lazyload img-fluid" alt="Images" />
+                  </a>
+              </div>
+              <div class="item web col-sm-6 col-md-6 col-lg-4 isotope-mb-2">
+                <a href="temple.html" class="portfolio-item ajax-load-page isotope-item gsap-reveal-img" data-id="1">
+                    <div class="overlay">
+                      <span class="wrap-icon icon-link2"></span>
+                      <div class="portfolio-item-content">
+                        <h6>temple Webpage/ APP</h6>
+                        <p>UI/UX, Front-End</p>
+                      </div>
+                    </div>
+                    <img src="images/temple_admin.png" class="lazyload img-fluid" alt="Images" />
+                  </a>
+              </div>
+              <div class="item web col-sm-6 col-md-6 col-lg-4 isotope-mb-2">
+                <a href="ncku.html" class="portfolio-item ajax-load-page isotope-item gsap-reveal-img" data-id="1">
+                    <div class="overlay">
+                      <span class="wrap-icon icon-link2"></span>
+                      <div class="portfolio-item-content">
+                        <h6>NCKU Fintech APP</h6>
+                        <p>UI/UX</p>
+                      </div>
+                    </div>
+                    <img src="images/ncku_2.png" class="lazyload img-fluid" alt="Images" />
+                  </a>
+              </div>
+              <div class="item web col-sm-6 col-md-6 col-lg-4 isotope-mb-2">
+                <a href="gold_kingdom.html" class="portfolio-item ajax-load-page isotope-item gsap-reveal-img" data-id="1">
+                    <div class="overlay">
+                      <span class="wrap-icon icon-link2"></span>
+                      <div class="portfolio-item-content">
+                        <h6>Gold Kingdom Website</h6>
+                        <p>Front-End</p>
+                      </div>
+                    </div>
+                    <img src="images/gold.jpg" class="lazyload img-fluid" alt="Images" />
+                  </a>
+              </div>
+              <div class="item web col-sm-6 col-md-6 col-lg-4 isotope-mb-2">
+                <a href="smart_home.html" class="portfolio-item ajax-load-page isotope-item gsap-reveal-img" data-id="1">
+                    <div class="overlay">
+                      <span class="wrap-icon icon-link2"></span>
+                      <div class="portfolio-item-content">
+                        <h6>Smart Appliance App</h6>
+                        <p>UI/UX</p>
+                      </div>
+                    </div>
+                    <img src="images/de_cover.png" class="lazyload img-fluid" alt="Images" />
+                  </a>
+              </div>
+              <div class="item web col-sm-6 col-md-6 col-lg-4 isotope-mb-2">
+                <a href="rbq.html" class="portfolio-item ajax-load-page isotope-item gsap-reveal-img" data-id="1">
+                    <div class="overlay">
+                      <span class="wrap-icon icon-link2"></span>
+                      <div class="portfolio-item-content">
+                        <h6>SRooftop BBQ APP</h6>
+                        <p>UI/UX</p>
+                      </div>
+                    </div>
+                    <img src="images/rbq_cover_phone.png" class="lazyload img-fluid" alt="Images" />
+                  </a>
+              </div>
+              <div class="item web col-sm-6 col-md-6 col-lg-4 isotope-mb-2">
+                <a href="immerstay.html" class="portfolio-item ajax-load-page isotope-item gsap-reveal-img" data-id="1">
+                    <div class="overlay">
+                      <span class="wrap-icon icon-link2"></span>
+                      <div class="portfolio-item-content">
+                        <h6>Immerstay Webpage</h6>
+                        <p>UI/UX</p>
+                      </div>
+                    </div>
+                    <img src="images/immerstay.png" class="lazyload img-fluid" alt="Images" />
+                  </a>
+              </div>
+              <div class="item web col-sm-6 col-md-6 col-lg-4 isotope-mb-2">
+                <a href="nippon.html" class="portfolio-item ajax-load-page isotope-item gsap-reveal-img" data-id="1">
+                    <div class="overlay">
+                      <span class="wrap-icon icon-link2"></span>
+                      <div class="portfolio-item-content">
+                        <h6>Nippon Paint APP</h6>
+                        <p>UI/UX</p>
+                      </div>
+                    </div>
+                    <img src="images/np.png" class="lazyload img-fluid" alt="Images" />
+                  </a>
+              </div>
+              <div class="item web col-sm-6 col-md-6 col-lg-4 isotope-mb-2">
+                <a href="tibame.html" class="portfolio-item ajax-load-page isotope-item gsap-reveal-img" data-id="1">
+                    <div class="overlay">
+                      <span class="wrap-icon icon-link2"></span>
+                      <div class="portfolio-item-content">
+                        <h6>Tibame Website</h6>
+                        <p>UI/UX, Front-End</p>
+                      </div>
+                    </div>
+                    <img src="images/cc.png" class="lazyload img-fluid" alt="Images" />
+                  </a>
+              </div>
+              <div class="item graphic col-sm-6 col-md-6 col-lg-4 isotope-mb-2">
+                <a href="furniture_123.html" class="portfolio-item ajax-load-page isotope-item gsap-reveal-img" data-id="1">
+                    <div class="overlay">
+                      <span class="wrap-icon icon-link2"></span>
+                      <div class="portfolio-item-content">
+                        <h6>Furniture 123</h6>
+                        <p>Graphic</p>
+                      </div>
+                    </div>
+                    <img src="images/123_baggage.png" class="lazyload img-fluid" alt="Images" />
+                  </a>
+              </div>
+              <div class="item graphic col-sm-6 col-md-6 col-lg-4 isotope-mb-2">
+                <a href="life_jacket.html" class="portfolio-item ajax-load-page isotope-item gsap-reveal-img" data-id="1">
+                    <div class="overlay">
+                      <span class="wrap-icon icon-link2"></span>
+                      <div class="portfolio-item-content">
+                        <h6>Auto Opening Life Jacket</h6>
+                        <p>Graphic</p>
+                      </div>
+                    </div>
+                    <img src="images/life-photo1.png" class="lazyload img-fluid" alt="Images" />
+                  </a>
+              </div>
+              <div class="item graphic col-sm-6 col-md-6 col-lg-4 isotope-mb-2">
+                <a href="logo.html" class="portfolio-item ajax-load-page isotope-item gsap-reveal-img" data-id="1">
+                    <div class="overlay">
+                      <span class="wrap-icon icon-link2"></span>
+                      <div class="portfolio-item-content">
+                        <h6>Logos</h6>
+                        <p>Graphic</p>
+                      </div>
+                    </div>
+                    <img src="images/logo_sobek.png" class="lazyload img-fluid" alt="Images" />
+                  </a>
+              </div>
+              <div class="item graphic col-sm-6 col-md-6 col-lg-4 isotope-mb-2">
+                <a href="footwear.html" class="portfolio-item ajax-load-page isotope-item gsap-reveal-img" data-id="1">
+                    <div class="overlay">
+                      <span class="wrap-icon icon-link2"></span>
+                      <div class="portfolio-item-content">
+                        <h6>Footwear</h6>
+                        <p>Graphic</p>
+                      </div>
+                    </div>
+                    <img src="images/shoes.png" class="lazyload img-fluid" alt="Images" />
+                  </a>
+              </div>
+              <div class="item graphic col-sm-6 col-md-6 col-lg-4 isotope-mb-2">
+                <a href="orange.html" class="portfolio-item ajax-load-page isotope-item gsap-reveal-img" data-id="1">
+                    <div class="overlay">
+                      <span class="wrap-icon icon-link2"></span>
+                      <div class="portfolio-item-content">
+                        <h6>Orange</h6>
+                        <p>Graphic</p>
+                      </div>
+                    </div>
+                    <img src="images/orange.png" class="lazyload img-fluid" alt="Images" />
+                  </a>
+              </div>
+              <div class="item graphic col-sm-6 col-md-6 col-lg-4 isotope-mb-2">
+                <a href="cosmetic.html" class="portfolio-item ajax-load-page isotope-item gsap-reveal-img" data-id="1">
+                    <div class="overlay">
+                      <span class="wrap-icon icon-link2"></span>
+                      <div class="portfolio-item-content">
+                        <h6>Cosmetic</h6>
+                        <p>Graphic</p>
+                      </div>
+                    </div>
+                    <img src="images/cosmetic_photo1.png" class="lazyload img-fluid" alt="Images" />
+                  </a>
+              </div>
+              <div class="item graphic col-sm-6 col-md-6 col-lg-4 isotope-mb-2">
+                <a href="mask.html" class="portfolio-item ajax-load-page isotope-item gsap-reveal-img" data-id="1">
+                    <div class="overlay">
+                      <span class="wrap-icon icon-link2"></span>
+                      <div class="portfolio-item-content">
+                        <h6>Mask</h6>
+                        <p>Graphic</p>
+                      </div>
+                    </div>
+                    <img src="images/mask_pic.png" class="lazyload img-fluid" alt="Images" />
+                  </a>
+              </div>
+              <div class="item graphic col-sm-6 col-md-6 col-lg-4 isotope-mb-2">
+                <a href="tea_coffee.html" class="portfolio-item ajax-load-page isotope-item gsap-reveal-img" data-id="1">
+                    <div class="overlay">
+                      <span class="wrap-icon icon-link2"></span>
+                      <div class="portfolio-item-content">
+                        <h6>Tea&Coffee </h6>
+                        <p>Graphic</p>
+                      </div>
+                    </div>
+                    <img src="images/tea.png" class="lazyload img-fluid" alt="Images" />
+                  </a>
+              </div>
+              <div class="item illustration col-sm-6 col-md-6 col-lg-4 isotope-mb-2">
+                <a href="creative_tainan.html" class="portfolio-item ajax-load-page isotope-item gsap-reveal-img" data-id="1">
+                    <div class="overlay">
+                      <span class="wrap-icon icon-link2"></span>
+                      <div class="portfolio-item-content">
+                        <h6>Creative Tainan</h6>
+                        <p>Illustration</p>
+                      </div>
+                    </div>
+                    <img src="images/illu_map.png" class="lazyload img-fluid" alt="Images" />
+                  </a>
+              </div>
+              <div class="item illustration col-sm-6 col-md-6 col-lg-4 isotope-mb-2">
+                <a href="illustration.html" class="portfolio-item ajax-load-page isotope-item gsap-reveal-img" data-id="1">
+                    <div class="overlay"> 
+                      <span class="wrap-icon icon-link2"></span>
+                      <div class="portfolio-item-content">
+                        <h6>illustration and Poster</h6>
+                        <p>Illustration</p>
+                      </div>
+                    </div>
+                    <img src="images/illu_note.png" class="lazyload img-fluid" alt="Images" />
+                  </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="unslate_co--section" id="about-section">
+        <div class="container">
+          <div class="section-heading-wrap text-center mb-5">
+            <h2 class="heading-h2 text-center divider"><span class="gsap-reveal">About Me</span></h2>
+            <span class="gsap-reveal">
+            <img src="images/divider.png" alt="divider" width="76">
+            </span>
+          </div>
+          <div class="row mt-5 justify-content-between">
+            <div class="col-lg-7 mb-5 mb-lg-0">
+              <figure class="dotted-bg gsap-reveal-img ">
+                <img src="images/about_me_pic2.jpg" alt="Image" class="img-fluid">
+              </figure>
+            </div>
+            <div class="col-lg-4 pr-lg-5">
+              <h3 class="mb-4 heading-h3">
+                <span class="gsap-reveal">Designer/Programmer</span>
+              </h3>
+              <p class="lead gsap-reveal">Hello, this is the online portfolio of designer I Pin Chen.<br> I have the ability with multiple areas of design, programming and storytelling.</p>
+              <p class="gsap-reveal">
+                <a target="_blank" href="https://drive.google.com/file/d/18xLs-jcVUc2jCIJj6HVGk3oV8P0Lwy57/view?usp=sharing" class="btn primary-btn shadow-pop-tr">RÉSUMÉ</a>
+              </p>
+            </div>
+          </div>
+          <div class="row gutter-v3">
+            <div class="col-md-6 col-lg-4 mb-4">
+              <div class="feature-v1 text-center" data-aos="fade-up" data-aos-delay="100">
+                <div class="wrap-icon mb-3">
+                  <!-- <script
+                  src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script><lottie-player src="https://assets4.lottiefiles.com/packages/lf20_zxzju6o1.json" background="transparent" speed="1" style="width: 100px; height: 100px;" loop autoplay></lottie-player> -->
+                  <img src="images/uiux.gif" style="width: 120px; height: 120px;">
+                </div>
+                <h3>UI/UX Design</h3>
+                <p>Sketch, protoPie, inVision, zeplin</p>
+              </div> 
+            </div>
+            <div class="col-md-6 col-lg-4 mb-4">
+              <div class="feature-v1 text-center" data-aos="fade-up" data-aos-delay="200">
+                <div class="wrap-icon mb-3">
+                  <!-- <script
+                src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script><lottie-player src="https://assets6.lottiefiles.com/packages/lf20_8kbjzwto.json" background="transparent" speed="1" style="width: 100px; height: 100px;" loop autoplay></lottie-player> -->
+                <img src="images/webdev.gif" style="width: 120px; height: 120px;">
+                </div>
+                <h3>Web Development</h3>
+                <p>HTML, CSS, Javascript, git</p>
+              </div> 
+            </div>
+            <div class="col-md-6 col-lg-4 mb-4">
+              <div class="feature-v1 text-center" data-aos="fade-up" data-aos-delay="0">
+                <div class="wrap-icon mb-3">
+                  <!-- <script
+                  src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script><lottie-player src="https://assets9.lottiefiles.com/packages/lf20_ezhzveah.json" background="transparent" speed="1" style="width: 100px; height: 100px;" loop autoplay></lottie-player> -->
+                  <img src="images/graphic.gif" style="width: 120px; height: 120px;">
+                </div>
+                <h3>Graphic Design</h3>
+                <p>adobe illustrator, photoshop</p>
+              </div> 
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="unslate_co--section" id="practice-section">
+        <div class="container">
+          <div class="section-heading-wrap text-center mb-5">
+            <h2 class="heading-h2 text-center divider"><span class="gsap-reveal">JS practice</span></h2>
+            <span class="gsap-reveal"><img src="images/divider.png" alt="divider" width="76"></span>
+          </div>
+          <div class="row gutter-v4 align-items-stretch">
+            <div class="col-sm-6 col-md-6 col-lg-3 practice-post-entry" data-aos="fade-up" data-aos-delay="0">
+              <a target="_blank" href="../practice/booklist/index.html" class="grid-item practice-item w-100 h-100">
+                <div class="overlay">
+                </div>
+                <img src="images/practice-book.png" class="lazyload" alt="Image" />
+                <img src="images/practice-book-0.png" class="original-lazyload" alt="Image" />
+              </a>
+              <div class="portfolio-item-content text-center practice-title">
+                <h5>Booklist</h5>
+              </div>
+            </div>
+            <div class="col-sm-6 col-md-6 col-lg-3 practice-post-entry" data-aos="fade-up" data-aos-delay="0">
+              <a target="_blank" href="../practice/todo-list/index.html" class="grid-item practice-item w-100 h-100">
+                <div class="overlay">
+                </div>
+                <img src="images/practice-todo.png" class="lazyload" alt="Image" />
+                <img src="images/practice-todo-0.png" class="original-lazyload" alt="Image" />
+              </a>
+              <div class="portfolio-item-content text-center practice-title">
+                <h5>Todo List</h5>
+              </div>
+            </div>
+            <div class="col-sm-6 col-md-6 col-lg-3 practice-post-entry" data-aos="fade-up" data-aos-delay="100">
+              <a target="_blank" href="../practice/meal-finder/index.html" class="grid-item practice-item w-100 h-100">
+                <div class="overlay">
+                </div>
+                <img src="images/practice-meat.png" class="lazyload" alt="Image" />
+                <img src="images/practice-meat-0.png" class="original-lazyload" alt="Image" />
+              </a>
+              <div class="portfolio-item-content text-center practice-title">
+                <h5>Meal Finder</h5>
+              </div>
+            </div>
+            <div class="col-sm-6 col-md-6 col-lg-3 practice-post-entry" data-aos="fade-up" data-aos-delay="200">
+              <a target="_blank" href="../practice/expense-tracker/index.html" class="grid-item practice-item w-100 h-100">
+                <div class="overlay">
+                </div>
+                <img src="images/practice-expense.png" class="lazyload" alt="Image" />
+                <img src="images/practice-expense-0.png" class="original-lazyload" alt="Image" />
+              </a>
+              <div class="portfolio-item-content text-center practice-title">
+                <h5>Expense Tracker</h5>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- END practice posts -->
+
+      <div class="unslate_co--section" id="contact-section">
+        <div class="container">
+          <div class="section-heading-wrap text-center mb-5">
+            <h2 class="heading-h2 text-center divider">
+              <span class="gsap-reveal">Get In Touch</span>
+            </h2>
+            <span class="gsap-reveal"><img src="images/divider.png" alt="divider" width="76"></span>
+          </div>
+          <div class="row justify-content-between">
+            <div class="col-md-6">
+              <form method="post" class="form-outline-style-v1" id="contactForm">
+                <div class="form-group row mb-0">
+                  <div class="col-lg-6 form-group gsap-reveal">
+                    <label for="name">Name</label>
+                    <input name="name" type="text" class="form-control" id="name">
+                  </div>
+                  <div class="col-lg-6 form-group gsap-reveal">
+                    <label for="email">Email</label>
+                    <input name="email" type="email" class="form-control" id="email">
+                  </div>
+                  <div class="col-lg-12 form-group gsap-reveal">
+                    <label for="message">Message</label>
+                    <textarea name="message" id="message" cols="30" rows="7" class="form-control"></textarea>
+                  </div>
+                </div>
+                <div class="form-group row gsap-reveal">
+                    <div class="col-md-12 d-flex align-items-center">
+                      <input type="submit" class="btn primary-btn mr-3" value="Send Message">
+                      <span class="submitting"></span>
+                    </div>
+                </div>
+              </form>
+              <div id="form-message-warning" class="mt-4"></div> 
+              <div id="form-message-success">
+                Your message was sent, thank you!
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="contact-info-v1">
+                <div class="gsap-reveal d-block">
+                  <span class="d-block contact-info-label">Email</span>
+                  <a href="mailto:takoyaki215@gmail.com" target="_blank"class="contact-info-val">takoyaki215@gmail.com</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      </div> <!-- END .unslate_co-site-inner -->
+
+      <footer class="unslate_co--footer unslate_co--section">
+        <div class="container">
+          <div class="row justify-content-center">
+            <div class="col-md-7">
+              <div class="footer-site-logo">
+                <a href="index.html"><span>i</span>PC</a>
+              </div>
+              <div class="footer-site-social">
+                <a href="https://www.facebook.com/TAKOCHEN15/" target="_blank">
+                  <i class="fab fa-facebook-square"></i>
                 </a>
+                <a href="https://www.pinterest.com/takoyaki215/_saved/" target="_blank">
+                  <i class="fab fa-pinterest-square"></i>
+                </a>
+                <a href="mailto:takoyaki215@gmail.com" target="_blank">
+                  <i class="fas fa-envelope"></i>
+                </a>
+              </div>
+              <p class="site-copyright">
+                Copyright &copy;
+                <script>
+                  document.write(new Date().getFullYear());
+                </script> All rights reserved I Pin Chen
+              </p>
             </div>
-            <!-- Logo -->
-            <!-- Mobile Toggle Menu Button -->
-            <a href="#" class="js-fh5co-nav-toggle fh5co-nav-toggle"><i></i></a>
-            <!-- Main Nav -->
-            <div id="fh5co-main-nav">
-                <nav id="fh5co-nav">
-                    <ul class="fh5co-nav-call-to-action js-fh5co-nav-call-to-action">
-                        <li class="fh5co-active">
-                            <a href="index.html">WORKS</a>
-                        </li>
-                        <li>
-                            <a href="about.html">ABOUT</a>
-                        </li>
-                    </ul>
-                </nav>
-            </div>
-            <!-- Main Nav -->
+          </div>
         </div>
-    </header>
-    <!-- Header -->
-    <main>
-        <!-- Start Intro -->
-        <div id="fh5co-intro">
-            <div class="container">
-                <h1>portfolio</h1>
-                <div class="row">
-                    <div class="col-md-6 col-md-push-6 fh5co-intro-sub">
-                        <p>Include in web design, app UI and UX, graphic design, packaging and illustration.</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- End Intro -->
-        <!-- Start Work -->
-        <!-- Center Tabs -->
-        <div id="fh5co-tab-feature-center" class="fh5co-tab text-center">
-            <ul class="resp-tabs-list hor_1">
-                <li><i class="fh5co-tab-menu-icon ti-mobile"></i>Interface</li>
-                <li><i class="fh5co-tab-menu-icon ti-ruler-pencil"></i>Graphics</li>
-                <li><i class="fh5co-tab-menu-icon ti-palette"></i> Illustration</li>
-            </ul>
-            <div class="resp-tabs-container hor_1">
-                <div class="fh5co-work">
-                    <div class="container">
-                        <div class="row">
-                            <!-- <div class="col-md-6 col-sm-6 col-xs-12 fh5co-work-wrap">
-                                <a href="sunny_bank.html" class="fh5co-work-item js-fh5co-work-item">
-                                    <img src="images/index_sunny_bank.jpg" alt="Image" class="img-responsive">
-                                    <div class="fh5co-overlay-bg js-fh5co-overlay-bg"></div>
-                                    <div class="fh5co-overlay-text js-fh5co-overlay-text">
-                                        <h2>Sunny Bank investor website</h2>
-                                        <ul class="fh5co-categories">
-                                            <li>2020</li>
-                                        </ul>
-                                    </div>
-                                </a>
-                            </div> -->
-                            <div class="col-md-6 col-sm-6 col-xs-12 fh5co-work-wrap">
-                                <a href="eid.html" class="fh5co-work-item js-fh5co-work-item">
-                                    <img src="images/index_eid.jpg" alt="Image" class="img-responsive">
-                                    <div class="fh5co-overlay-bg js-fh5co-overlay-bg"></div>
-                                    <div class="fh5co-overlay-text js-fh5co-overlay-text">
-                                        <h2>eID APP UI</h2>
-                                        <ul class="fh5co-categories">
-                                            <li>2020</li>
-                                        </ul>
-                                    </div>
-                                </a>
-                            </div>
-                            <div class="col-md-6 col-sm-6 col-xs-12 fh5co-work-wrap">
-                                <a href="special_education.html" class="fh5co-work-item js-fh5co-work-item">
-                                    <img src="images/index_special_education.jpg" alt="Image" class="img-responsive">
-                                    <div class="fh5co-overlay-bg js-fh5co-overlay-bg"></div>
-                                    <div class="fh5co-overlay-text js-fh5co-overlay-text">
-                                        <h2>iPad APP Prototype/ UI</h2>
-                                        <ul class="fh5co-categories">
-                                            <li>2019</li>
-                                        </ul>
-                                    </div>
-                                </a>
-                            </div>
-                            <div class="col-md-6 col-sm-6 col-xs-12 fh5co-work-wrap">
-                                <a href="temple_admin.html" class="fh5co-work-item js-fh5co-work-item">
-                                    <img src="images/index_temple_admin.jpg" alt="Image" class="img-responsive">
-                                    <div class="fh5co-overlay-bg js-fh5co-overlay-bg"></div>
-                                    <div class="fh5co-overlay-text js-fh5co-overlay-text">
-                                        <h2>Administrator Website/ APP UI</h2>
-                                        <ul class="fh5co-categories">
-                                            <li>2019</li>
-                                        </ul>
-                                    </div>
-                                </a>
-                            </div>
-                            <div class="col-md-6 col-sm-6 col-xs-12 fh5co-work-wrap">
-                                <a href="ncku.html" class="fh5co-work-item js-fh5co-work-item">
-                                    <img src="images/index_ncku.jpg" alt="Image" class="img-responsive">
-                                    <div class="fh5co-overlay-bg js-fh5co-overlay-bg"></div>
-                                    <div class="fh5co-overlay-text js-fh5co-overlay-text">
-                                        <h2>NCKU Fintech APP UI</h2>
-                                        <ul class="fh5co-categories">
-                                            <li>2019</li>
-                                        </ul>
-                                    </div>
-                                </a>
-                            </div>
-                            <!-- <div class="col-md-6 col-sm-6 col-xs-12 fh5co-work-wrap">
-                                <a href="tin_coin.html" class="fh5co-work-item js-fh5co-work-item">
-                                    <img src="images/index_tin_coin.jpg" alt="Image" class="img-responsive">
-                                    <div class="fh5co-overlay-bg js-fh5co-overlay-bg"></div>
-                                    <div class="fh5co-overlay-text js-fh5co-overlay-text">
-                                        <h2>Tin coin APP</h2>
-                                        <ul class="fh5co-categories">
-                                            <li>2019</li>
-                                        </ul>
-                                    </div>
-                                </a>
-                            </div> -->
-                            <!-- <div class="col-md-6 col-sm-6 col-xs-12 fh5co-work-wrap">
-                                <a href="cdri_view.html" class="fh5co-work-item js-fh5co-work-item">
-                                    <img src="images/index_cdri_view.jpg" alt="Image" class="img-responsive">
-                                    <div class="fh5co-overlay-bg js-fh5co-overlay-bg"></div>
-                                    <div class="fh5co-overlay-text js-fh5co-overlay-text">
-                                        <h2>CDRI View website</h2>
-                                        <ul class="fh5co-categories">
-                                            <li>2019</li>
-                                        </ul>
-                                    </div>
-                                </a>
-                            </div> -->
-                            <!-- <div class="col-md-6 col-sm-6 col-xs-12 fh5co-work-wrap">
-                                <a href="todolist.html" class="fh5co-work-item js-fh5co-work-item">
-                                    <img src="images/index_todolist.jpg" alt="Image" class="img-responsive">
-                                    <div class="fh5co-overlay-bg js-fh5co-overlay-bg"></div>
-                                    <div class="fh5co-overlay-text js-fh5co-overlay-text">
-                                        <h2>To Do List website</h2>
-                                        <ul class="fh5co-categories">
-                                            <li>2019</li>
-                                        </ul>
-                                    </div>
-                                </a>
-                            </div> -->
-                            <div class="col-md-6 col-sm-6 col-xs-12 fh5co-work-wrap">
-                                <a href="gold_kingdom.html" class="fh5co-work-item js-fh5co-work-item">
-                                    <img src="images/index_gold.jpg" alt="Image" class="img-responsive">
-                                    <div class="fh5co-overlay-bg js-fh5co-overlay-bg"></div>
-                                    <div class="fh5co-overlay-text js-fh5co-overlay-text">
-                                        <h2>Gold Kingdom Sacrificial Website</h2>
-                                        <ul class="fh5co-categories">
-                                            <li>2019</li>
-                                        </ul>
-                                    </div>
-                                </a>
-                            </div>
-                            <div class="col-md-6 col-sm-6 col-xs-12 fh5co-work-wrap">
-                                <a href="smart_home.html" class="fh5co-work-item js-fh5co-work-item">
-                                    <img src="images/index_smart_home.jpg" alt="Image" class="img-responsive">
-                                    <div class="fh5co-overlay-bg js-fh5co-overlay-bg"></div>
-                                    <div class="fh5co-overlay-text js-fh5co-overlay-text">
-                                        <h2>APP UI/ UX</h2>
-                                        <ul class="fh5co-categories">
-                                            <li>2017</li>
-                                        </ul>
-                                    </div>
-                                </a>
-                            </div>
-                            <div class="col-md-6 col-sm-6 col-xs-12 fh5co-work-wrap">
-                                <a href="rbq.html" class="fh5co-work-item js-fh5co-work-item">
-                                    <img src="images/index_rbq.jpg" alt="Image" class="img-responsive">
-                                    <div class="fh5co-overlay-bg js-fh5co-overlay-bg"></div>
-                                    <div class="fh5co-overlay-text js-fh5co-overlay-text">
-                                        <h2>Rooftop BBQ APP Prototype/ UI/ UX</h2>
-                                        <ul class="fh5co-categories">
-                                            <li>2016</li>
-                                        </ul>
-                                    </div>
-                                </a>
-                            </div>
-                            <div class="col-md-6 col-sm-6 col-xs-12 fh5co-work-wrap">
-                                <a href="youxing.html" class="fh5co-work-item js-fh5co-work-item">
-                                    <img src="images/index_youxing.jpg" alt="Image" class="img-responsive">
-                                    <div class="fh5co-overlay-bg js-fh5co-overlay-bg"></div>
-                                    <div class="fh5co-overlay-text js-fh5co-overlay-text">
-                                        <h2>Youxing Web UI Design</h2>
-                                        <ul class="fh5co-categories">
-                                            <li>2016</li>
-                                        </ul>
-                                    </div>
-                                </a>
-                            </div>
-                            <div class="col-md-6 col-sm-6 col-xs-12 fh5co-work-wrap">
-                                <a href="immerstay.html" class="fh5co-work-item js-fh5co-work-item">
-                                    <img src="images/index_immerstay.jpg" alt="Image" class="img-responsive">
-                                    <div class="fh5co-overlay-bg js-fh5co-overlay-bg"></div>
-                                    <div class="fh5co-overlay-text js-fh5co-overlay-text">
-                                        <h2>Immerstay Web UI Design</h2>
-                                        <ul class="fh5co-categories">
-                                            <li>2016</li>
-                                        </ul>
-                                    </div>
-                                </a>
-                            </div>
-                            <div class="col-md-6 col-sm-6 col-xs-12 fh5co-work-wrap">
-                                <a href="nippon_paint.html" class="fh5co-work-item js-fh5co-work-item">
-                                    <img src="images/index_nippon.jpg" alt="Image" class="img-responsive">
-                                    <div class="fh5co-overlay-bg js-fh5co-overlay-bg"></div>
-                                    <div class="fh5co-overlay-text js-fh5co-overlay-text">
-                                        <h2>Nippon Paint APP</h2>
-                                        <ul class="fh5co-categories">
-                                            <li>2015~2016</li>
-                                        </ul>
-                                    </div>
-                                </a>
-                            </div>
-                            <div class="col-md-6 col-sm-6 col-xs-12 fh5co-work-wrap">
-                                <a href="tibame.html" class="fh5co-work-item js-fh5co-work-item">
-                                    <img src="images/index_tibame.jpg" alt="Image" class="img-responsive">
-                                    <div class="fh5co-overlay-bg js-fh5co-overlay-bg"></div>
-                                    <div class="fh5co-overlay-text js-fh5co-overlay-text">
-                                        <h2>Tibame Website</h2>
-                                        <ul class="fh5co-categories">
-                                            <li>2014~2016</li>
-                                        </ul>
-                                    </div>
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="fh5co-work">
-                    <div class="container">
-                        <div class="row">
-                            <div class="col-md-6 col-sm-6 col-xs-12 fh5co-work-wrap">
-                                <a href="123.html" class="fh5co-work-item js-fh5co-work-item">
-                                    <img src="images/index_123.jpg" alt="Image" class="img-responsive">
-                                    <div class="fh5co-overlay-bg js-fh5co-overlay-bg"></div>
-                                    <div class="fh5co-overlay-text js-fh5co-overlay-text">
-                                        <h2>123 Furniture Store</h2>
-                                        <ul class="fh5co-categories">
-                                            <li>2017</li>
-                                        </ul>
-                                    </div>
-                                </a>
-                            </div>
-                            <div class="col-md-6 col-sm-6 col-xs-12 fh5co-work-wrap">
-                                <a href="life_jacket.html" class="fh5co-work-item js-fh5co-work-item">
-                                    <img src="images/index_life_jacket.jpg" alt="Image" class="img-responsive">
-                                    <div class="fh5co-overlay-bg js-fh5co-overlay-bg"></div>
-                                    <div class="fh5co-overlay-text js-fh5co-overlay-text">
-                                        <h2>Auto Opening Life Jacket</h2>
-                                        <ul class="fh5co-categories">
-                                            <li>2014</li>
-                                        </ul>
-                                    </div>
-                                </a>
-                            </div>
-                            <!-- <div class="col-md-6 col-sm-6 col-xs-12 fh5co-work-wrap">
-                                <a href="slippers_socks.html" class="fh5co-work-item js-fh5co-work-item">
-                                    <img src="images/index_slippers_socks.jpg" alt="Image" class="img-responsive">
-                                    <div class="fh5co-overlay-bg js-fh5co-overlay-bg"></div>
-                                    <div class="fh5co-overlay-text js-fh5co-overlay-text">
-                                        <h2>YOY</h2>
-                                        <ul class="fh5co-categories">
-                                            <li>2014</li>
-                                        </ul>
-                                    </div>
-                                </a>
-                            </div> -->
-                            <!-- <div class="col-md-6 col-sm-6 col-xs-12 fh5co-work-wrap">
-                                <a href="mr_olive.html" class="fh5co-work-item js-fh5co-work-item">
-                                    <img src="images/index_mr_olive.jpg" alt="Image" class="img-responsive">
-                                    <div class="fh5co-overlay-bg js-fh5co-overlay-bg"></div>
-                                    <div class="fh5co-overlay-text js-fh5co-overlay-text">
-                                        <h2>Mr. Olive</h2>
-                                        <ul class="fh5co-categories">
-                                            <li>2013</li>
-                                        </ul>
-                                    </div>
-                                </a>
-                            </div> -->
-                            <!-- <div class="col-md-6 col-sm-6 col-xs-12 fh5co-work-wrap">
-                                <a href="music_concert.html" class="fh5co-work-item js-fh5co-work-item">
-                                    <img src="images/index_music_concert.jpg" alt="Image" class="img-responsive">
-                                    <div class="fh5co-overlay-bg js-fh5co-overlay-bg"></div>
-                                    <div class="fh5co-overlay-text js-fh5co-overlay-text">
-                                        <h2>Charity Concert</h2>
-                                        <ul class="fh5co-categories">
-                                            <li>2013</li>
-                                        </ul>
-                                    </div>
-                                </a>
-                            </div> -->
-                            <div class="col-md-6 col-sm-6 col-xs-12 fh5co-work-wrap">
-                                <a href="logo.html" class="fh5co-work-item js-fh5co-work-item">
-                                    <img src="images/index_logo.jpg" alt="Image" class="img-responsive">
-                                    <div class="fh5co-overlay-bg js-fh5co-overlay-bg"></div>
-                                    <div class="fh5co-overlay-text js-fh5co-overlay-text">
-                                        <h2>Logo</h2>
-                                        <ul class="fh5co-categories">
-                                            <li>2012</li>
-                                        </ul>
-                                    </div>
-                                </a>
-                            </div>
-                            <!-- <div class="col-md-6 col-sm-6 col-xs-12 fh5co-work-wrap">
-                                <a href="hk_food.html" class="fh5co-work-item js-fh5co-work-item">
-                                    <img src="images/index_hk_food.jpg" alt="Image" class="img-responsive">
-                                    <div class="fh5co-overlay-bg js-fh5co-overlay-bg"></div>
-                                    <div class="fh5co-overlay-text js-fh5co-overlay-text">
-                                        <h2>Hong Kong Restaurant</h2>
-                                        <ul class="fh5co-categories">
-                                            <li>2012</li>
-                                        </ul>
-                                    </div>
-                                </a>
-                            </div> -->
-                            <div class="col-md-6 col-sm-6 col-xs-12 fh5co-work-wrap">
-                                <a href="shoes.html" class="fh5co-work-item js-fh5co-work-item">
-                                    <img src="images/index_shoes.jpg" alt="Image" class="img-responsive">
-                                    <div class="fh5co-overlay-bg js-fh5co-overlay-bg"></div>
-                                    <div class="fh5co-overlay-text js-fh5co-overlay-text">
-                                        <h2>Footwear Box/Catalogue</h2>
-                                        <ul class="fh5co-categories">
-                                            <li>2011, 2014</li>
-                                        </ul>
-                                    </div>
-                                </a>
-                            </div>
-                            <div class="col-md-6 col-sm-6 col-xs-12 fh5co-work-wrap">
-                                <a href="orange.html" class="fh5co-work-item js-fh5co-work-item">
-                                    <img src="images/index_orange.jpg" alt="Image" class="img-responsive">
-                                    <div class="fh5co-overlay-bg js-fh5co-overlay-bg"></div>
-                                    <div class="fh5co-overlay-text js-fh5co-overlay-text">
-                                        <h2>Orange</h2>
-                                        <ul class="fh5co-categories">
-                                            <li>2011</li>
-                                        </ul>
-                                    </div>
-                                </a>
-                            </div>
-                            <div class="col-md-6 col-sm-6 col-xs-12 fh5co-work-wrap">
-                                <a href="chienchi.html" class="fh5co-work-item js-fh5co-work-item">
-                                    <img src="images/index_chienchi.jpg" alt="Image" class="img-responsive">
-                                    <div class="fh5co-overlay-bg js-fh5co-overlay-bg"></div>
-                                    <div class="fh5co-overlay-text js-fh5co-overlay-text">
-                                        <h2>Chíenchi</h2>
-                                        <ul class="fh5co-categories">
-                                            <li>2011</li>
-                                        </ul>
-                                    </div>
-                                </a>
-                            </div>
-                            <div class="col-md-6 col-sm-6 col-xs-12 fh5co-work-wrap">
-                                <a href="dr_morita.html" class="fh5co-work-item js-fh5co-work-item">
-                                    <img src="images/index_dr_morita.jpg" alt="Image" class="img-responsive">
-                                    <div class="fh5co-overlay-bg js-fh5co-overlay-bg"></div>
-                                    <div class="fh5co-overlay-text js-fh5co-overlay-text">
-                                        <h2>Dr. Morita</h2>
-                                        <ul class="fh5co-categories">
-                                            <li>2011</li>
-                                        </ul>
-                                    </div>
-                                </a>
-                            </div>
-                            <div class="col-md-6 col-sm-6 col-xs-12 fh5co-work-wrap">
-                                <a href="tea_coffee.html" class="fh5co-work-item js-fh5co-work-item">
-                                    <img src="images/index_tea_coffee.jpg" alt="Image" class="img-responsive">
-                                    <div class="fh5co-overlay-bg js-fh5co-overlay-bg"></div>
-                                    <div class="fh5co-overlay-text js-fh5co-overlay-text">
-                                        <h2>Tea+Coffee</h2>
-                                        <ul class="fh5co-categories">
-                                            <li>2010</li>
-                                        </ul>
-                                    </div>
-                                </a>
-                            </div>
-                            <!--<div class="col-md-6 col-sm-6 col-xs-12 fh5co-work-wrap">
-                                    <a href="body_tactic.html" class="fh5co-work-item js-fh5co-work-item">
-                                        <img src="images/index_body_tactic.jpg" alt="Image" class="img-responsive">
-                                        <div class="fh5co-overlay-bg js-fh5co-overlay-bg"></div>
-                                        <div class="fh5co-overlay-text js-fh5co-overlay-text">
-                                            <h2>Slim/Body Tactic</h2>
-                                            <ul class="fh5co-categories">
-                                                <li>2010</li>
-                                            </ul>
-                                        </div>
-                                    </a>
-                                </div>-->
-                            <!--<div class="col-md-6 col-sm-6 col-xs-12 fh5co-work-wrap">
-                                    <a href="pet_medicine.html" class="fh5co-work-item js-fh5co-work-item">
-                                        <img src="images/index_pet_medicine.jpg" alt="Image" class="img-responsive">
-                                        <div class="fh5co-overlay-bg js-fh5co-overlay-bg"></div>
-                                        <div class="fh5co-overlay-text js-fh5co-overlay-text">
-                                            <h2>Pet Medicine</h2>
-                                            <ul class="fh5co-categories">
-                                                <li>2010</li>
-                                            </ul>
-                                        </div>
-                                    </a>
-                                </div>-->
-                        </div>
-                    </div>
-                </div>
-                <div class="fh5co-work">
-                    <div class="container">
-                        <div class="row">
-                            <div class="col-md-6 col-sm-6 col-xs-12 fh5co-work-wrap">
-                                <a href="creative_tainan.html" class="fh5co-work-item js-fh5co-work-item">
-                                    <img src="images/index_creative_tainan.jpg" alt="Image" class="img-responsive">
-                                    <div class="fh5co-overlay-bg js-fh5co-overlay-bg"></div>
-                                    <div class="fh5co-overlay-text js-fh5co-overlay-text">
-                                        <h2>Creative Tainan</h2>
-                                        <ul class="fh5co-categories">
-                                            <li>2014</li>
-                                        </ul>
-                                    </div>
-                                </a>
-                            </div>
-                            <div class="col-md-6 col-sm-6 col-xs-12 fh5co-work-wrap">
-                                <a href="illustration.html" class="fh5co-work-item js-fh5co-work-item">
-                                    <img src="images/index_illustration.jpg" alt="Image" class="img-responsive">
-                                    <div class="fh5co-overlay-bg js-fh5co-overlay-bg"></div>
-                                    <div class="fh5co-overlay-text js-fh5co-overlay-text">
-                                        <h2>illustration and Poster</h2>
-                                        <ul class="fh5co-categories">
-                                            <li>2010-2016</li>
-                                        </ul>
-                                    </div>
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </main>
-    <footer id="fh5co-footer">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-push-6 col-md-6 contact-footer">
-                    <ul class="fh5co-footer-social">
-                        <li>
-                            <a href="mailto:takoyaki215@gmail.com">
-                                <i class="ti-email"></i>
-                            </a>
-                        </li>
-                        <li>
-                            <a target="_blank" href="https://www.facebook.com/TAKOCHEN15">
-                                <i class="ti-facebook"></i>
-                            </a>
-                        </li>
-                        <li>
-                            <a target="_blank" href="https://www.pinterest.com/uranus15">
-                                <i class="ti-pinterest-alt"></i>
-                            </a>
-                        </li>
-                    </ul>
-                    <p class="fh5co-copyright">
-                        <small>Copyright &copy;<script>document.write(new Date().getFullYear());</script> I Pin Chen All Rights Reserved.</small>
-                    </p>
-                </div>
-            </div>
-        </div>
-    </footer>
-    <!-- Go To Top -->
-    <a href="#" class="fh5co-gotop"><i class="ti-shift-left"></i></a>
-    <!-- jQuery -->
-    <script src="js/jquery-1.10.2.min.js"></script>
-    <!-- jQuery Easing -->
-    <script src="js/jquery.easing.1.3.js"></script>
-    <!-- Bootstrap -->
-    <script src="js/bootstrap.js"></script>
-    <!-- Owl carousel -->
-    <script src="js/owl.carousel.min.js"></script>
-    <!-- Magnific Popup -->
-    <script src="js/jquery.magnific-popup.min.js"></script>
-    <!-- Easy Responsive Tabs -->
-    <script src="js/easyResponsiveTabs.js"></script>
-    <!-- FastClick for Mobile/Tablets -->
-    <script src="js/fastclick.js"></script>
-    <!-- Velocity -->
-    <script src="js/velocity.min.js"></script>
-    <!-- Main JS -->
-    <script src="js/main.js"></script>
-</body>
+      </footer>
+    </div>
 
+    <!-- Loader -->
+    <div id="unslate_co--overlayer"></div>
+    <div class="site-loader-wrap">
+      <div class="site-loader"></div>
+    </div>
+    <script src="js/scripts-dist.js"></script>
+    <script src="js/main.js"></script>
+  </body>
 </html>
