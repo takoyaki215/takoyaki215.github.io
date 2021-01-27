@@ -122,6 +122,14 @@ p {
   border-bottom: 5px solid #000;
 }
 
+.btn.disable-btn {
+  background-color: lightgray;
+  color:#fff;
+  border: 2px solid slategray;
+  border-bottom: 5px solid #000;
+  pointer-events: none;
+}
+
 .btn.primary-btn:hover, .primary-btn:active, .primary-btn:focus {
   border: 2px solid #fff;
   color: darksalmon;
