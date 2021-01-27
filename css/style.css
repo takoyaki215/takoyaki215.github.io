@@ -1759,6 +1759,9 @@ figure.dotted-bg:before {
 .detail-v1 .detail-val a {
   color: #fff;
 }
+.detail-v1 .detail-val a:hover {
+  color: salmon;
+}
 
 .unslate_co--footer {
   text-align: center;
