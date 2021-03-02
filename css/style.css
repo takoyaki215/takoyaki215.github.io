@@ -1344,6 +1344,15 @@ figure.dotted-bg:before {
     padding-right: 15px !important;
     padding-left: 15px !important;
   }
+  .rwd-order-1 {
+    order: 1;
+  }
+  .rwd-order-2 {
+    order: 2;
+  }
+  .rwd-order-3 {
+    order: 3;
+  }
 }
 
 .isotope-mb-2 {
