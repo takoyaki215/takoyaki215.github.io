@@ -1,5 +1,5 @@
-@import url("https://fonts.googleapis.com/css?family=Arimo:400|Raleway:300,400,700&display=swap");
-
+@import url('https://fonts.googleapis.com/css2?family=Arimo&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Gloria+Hallelujah&display=swap');
 
 body {
   font-family: "Raleway", sans-serif;
@@ -53,11 +53,11 @@ a {
 
 a, a:hover {
   font-weight: bold;
-  text-decoration: none !important;
+  text-decoration: none;
 }
 
 p {
-  font-size: 1rem;
+  font-size: 1.1rem;
   letter-spacing: .05rem;
 }
 
@@ -98,9 +98,10 @@ p {
   padding: 15px 30px;
   letter-spacing: .1rem;
   text-transform: uppercase;
-  font-weight: 900;
+  font-weight: 700;
   border-radius: 30px;
   transition: .3s all ease;
+  text-decoration: none !important;
 }
 
 .btn:hover, .btn:active, .btn:focus {
@@ -1177,8 +1178,12 @@ p {
   }
 }
 
+.unslate_co--section a {
+  text-decoration: underline;
+}
+
 .unslate_co--section a:hover {
-  color: #fff;
+  color: salmon;
 }
 
 .heading-h2 {
@@ -1679,7 +1684,7 @@ figure.dotted-bg:before {
 .portfolio-single-inner .heading-portfolio-single-h2 {
   margin-bottom: 40px;
   font-size: 50px;
-  font-weight: 900;
+  font-weight: 700;
 }
 
 @media (max-width: 991.98px) {
@@ -2210,6 +2215,32 @@ h6 {
 
 .bg-white {
   background: #fff;
+}
+
+.problem-des {
+  color: #fff;
+  background: rgb(25, 45, 45);
+  font-size: 1.2rem;
+  padding: 2em;
+}
+
+.problem-num {
+  color: darksalmon;
+  font-weight: 700;
+}
+
+.font-bold {
+  font-weight: 600;
+}
+
+.insight-des {
+  font-family: Gloria Hallelujah;
+  color: rgb(25, 45, 45);
+  background: rgb(230, 212, 73);
+  font-size: 1.2rem;
+  padding: 2em;
+  font-weight: bold;
+  width: 100%;
 }
 
 /* tooptip */
