@@ -1189,7 +1189,7 @@ p {
 .heading-h2 {
   font-size: 32px;
   color: darksalmon;
-  font-weight: 900;
+  font-weight: 700;
 }
 
 .heading-h2.divider:before {
@@ -1199,7 +1199,7 @@ p {
 
 .heading-h3 {
   font-size: 26px;
-  font-weight: 900;
+  font-weight: 600;
   color: #fff;
 }
 
@@ -1376,7 +1376,7 @@ figure.dotted-bg:before {
 
 .feature-v1 h3 {
   font-size: 22px;
-  font-weight: 900;
+  font-weight: 600;
 }
 
 .feature-v1 p {
@@ -1625,7 +1625,7 @@ figure.dotted-bg:before {
   margin-bottom: 0;
   color: #b3b3b3;
   text-transform: uppercase;
-  font-weight: 900;
+  font-weight: 500;
 }
 
 .form-outline-style-v1 .form-group.focus {
@@ -1667,7 +1667,7 @@ figure.dotted-bg:before {
 .contact-info-v1 .contact-info-label {
   font-size: 1rem;
   letter-spacing: .1rem;
-  font-weight: 900;
+  font-weight: 500;
   text-transform: uppercase;
   color: rgba(255, 255, 255, 0.5);
 }
@@ -1778,7 +1778,7 @@ figure.dotted-bg:before {
 
 .detail-v1 .detail-label {
   display: block;
-  font-weight: 900;
+  font-weight: 700;
   text-transform: uppercase;
   letter-spacing: .2rem;
   font-size: 1.2rem;
