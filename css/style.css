@@ -2248,6 +2248,10 @@ h6 {
   pointer-events: none;
 }
 
+.gif-border-radius {
+  border-radius: 20%;
+}
+
 /* tooptip */
 /* .next-prev-tooltip {
   position: relative;
