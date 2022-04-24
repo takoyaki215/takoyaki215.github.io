@@ -380,7 +380,7 @@ p {
   -webkit-transform: translateY(-50%);
   -ms-transform: translateY(-50%);
   transform: translateY(-50%);
-  /* font-family: 'icomoon'; */
+  font-family: 'icomoon';
 }
 
 .unslate_co--site-nav .site-nav-ul>li.has-children>.dropdown>li.has-children>.dropdown,
@@ -791,7 +791,7 @@ p {
 .unslate_co--site-mobile-menu ul>li.has-children .arrow-collapse:before {
   font-size: 11px !important;
   z-index: 20;
-  /* font-family: "icomoon"; */
+  font-family: "icomoon";
   content: "\f078";
   position: absolute;
   top: 50%;
