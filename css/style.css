@@ -1156,7 +1156,7 @@ p {
   left: 0px;
   right: 20px;
   width: 60%;
-  height: 30%;
+  height: 45%;
   background: darkslategrey;
 }
 
@@ -1986,6 +1986,7 @@ figure.dotted-bg:before {
   font-weight: 900;
   font-family: "Raleway", sans-serif;
   color: #fff;
+  text-decoration: none;
 }
 
 .unslate_co--footer .footer-site-logo a span {
