@@ -1,5 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Arimo&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Gloria+Hallelujah&display=swap');
+@import "{{ site.theme}}";
+
+h1 {
+  display: none;
+}
 
 body {
   font-family: "Raleway", sans-serif;
