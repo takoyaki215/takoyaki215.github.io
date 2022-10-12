@@ -127,6 +127,7 @@ p {
   color: #fff;
   border: 2px solid slategray;
   border-bottom: 5px solid #000;
+  border-right: 5px solid #000;
 }
 
 .btn.disable-btn {
