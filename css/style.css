@@ -2262,11 +2262,11 @@ span.error {
   overflow: hidden;
 }
 
-@media (max-width: 991.98px) {
+/* @media (max-width: 991.98px) {
   .gsap-reveal.gsap-reveal-filter {
     overflow: visible !important;
   }
-}
+} */
 
 .gsap-reveal .cover {
   position: absolute;
